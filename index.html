@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container mt-4">
+      <div class="row d-flex">
+        <div class="col-6 mac-image">
+          <img src="images/mac.png" alt="" />
+        </div>
+        <div class="col-6">
+          <h1>
+            Customize your Blue 24-inch <br />
+            iMac with Apple M1 chip.
+          </h1>
+          <p>
+            Apple M1 chip with 8-core CPU with 4 perfermance cores and 4
+            afficiency <br />
+            cores,7-core GPU,and 16-core Neural Engine 8GB unified memory 256GB
+            <br />
+            SSD storage Two Thunderbold/USB 4 ports Magic Mouse Magic Keybord-
+            <br />
+            US English
+          </p>
+
+          <h3 class="mt-5">Memory</h3>
+          <div class="d-flex gap-2 p-2">
+            <button id="first-memory" class="p-2">8GB unified memory</button>
+            <button id="second-memory" class="p-2">16GB unified memory</button>
+          </div>
+
+          <h3 class="text-bold mt-5">Stroage</h3>
+          <div class="d-flex gap-2 p-2">
+            <button id="first-storage" class="p-3">256 GB SSD Storage</button>
+            <button id="second-storage" class="p-3">512 GB SSD Storage</button>
+            <button id="third-storage" class="p-3">1TB GB SSD Storage</button>
+          </div>
+          <h3 class="text-bold mt-5">Choose your delivery option</h3>
+          <div class="d-flex gap-2 ">
+            <button id="first-delivery" class="p-3">Friday,Aug 25 Free Prime Delivery</button>
+            <button id="second-delivery" class="p-3">Friday,Aug 21 Delivery charge $20</button>
+          </div>
+
+          <div class="mt-4">
+            <div class="row gap-5">
+              <div class="col-5"><h3 class="fw-bold">Best Price</h3></div>
+              <div class="col-3"><h3>$1299</h3></div>
+            </div>
+            <hr style="width: 450px" />
+            <div class="row gap-5">
+              <div class="col-5">
+                <h3 class="fw-bold">Extra Memory Cost</h3>
+              </div>
+              <div class="col-3"><h3>$<span id="memory-output">0</span></h3></div>
+            </div>
+            <hr style="width: 450px" />
+            <div class="row gap-5">
+              <div class="col-5">
+                <h3 class="fw-bold">Extra Storage Cost</h3>
+              </div>
+              <div class="col-3"><h3>$ <span id="storage-output">00</span></h3></div>
+            </div>
+            <hr style="width: 450px" />
+            <div class="row gap-5">
+              <div class="col-5">
+                <h3 class="fw-bold">Delivery Charge</h3>
+              </div>
+              <div class="col-3"><h3>$<span id="delivery-output">0</span></h3></div>
+            </div>
+            <hr style="height: 3px; width: 450px; color: #000" />
+            <div class="row gap-5">
+              <div class="col-5"><h3 class="fw-bold">Total Price</h3></div>
+              <div class="col-3"><h3>$<span id="total-output">1299</span></h3></div>
+            </div>
+            <p class="mt-4">Add Promo code</p>
+          </div>
+
+          <div>
+            <input id="promo-code" class="p-2" type="text" />
+            <button id="input-button" class="btn btn-danger p-2">Apply</button>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h1 class="text-center">TOtal: $<span id="total-ammount">1299</span></h1>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/mac.js"></script>
+  </body>
+</html>
